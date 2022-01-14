@@ -11,6 +11,7 @@
 		F1BDCD592791E4D100C56AA4 /* HelloPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BDCD4E2791E4D100C56AA4 /* HelloPod.framework */; };
 		F1BDCD5E2791E4D100C56AA4 /* HelloPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BDCD5D2791E4D100C56AA4 /* HelloPodTests.swift */; };
 		F1BDCD5F2791E4D100C56AA4 /* HelloPod.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BDCD512791E4D100C56AA4 /* HelloPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1BDCD692791E62E00C56AA4 /* HelloPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BDCD682791E62E00C56AA4 /* HelloPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F1BDCD522791E4D100C56AA4 /* HelloPod.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = HelloPod.docc; sourceTree = "<group>"; };
 		F1BDCD582791E4D100C56AA4 /* HelloPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BDCD5D2791E4D100C56AA4 /* HelloPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPodTests.swift; sourceTree = "<group>"; };
+		F1BDCD682791E62E00C56AA4 /* HelloPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F1BDCD512791E4D100C56AA4 /* HelloPod.h */,
 				F1BDCD522791E4D100C56AA4 /* HelloPod.docc */,
+				F1BDCD682791E62E00C56AA4 /* HelloPod.swift */,
 			);
 			path = HelloPod;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BDCD692791E62E00C56AA4 /* HelloPod.swift in Sources */,
 				F1BDCD532791E4D100C56AA4 /* HelloPod.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 		F1BDCD662791E4D100C56AA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -416,6 +421,7 @@
 		F1BDCD672791E4D100C56AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
