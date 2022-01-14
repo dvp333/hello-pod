@@ -17,9 +17,9 @@ Pod::Spec.new do |spec|
 
   spec.name         = "HelloPod"
   spec.version      = "0.0.1"
-  spec.summary          = 'A new flutter plugin project.'
+  spec.summary          = 'Pod Test'
   spec.description      = <<-DESC
-  A new flutter plugin project.
+  A new flutter plugin project. oh HelloPod
   DESC
 
   # This description is used to generate tags and improve search results.
@@ -41,7 +41,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:dvp333/hello-pod.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/dvp333/hello-pod.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
